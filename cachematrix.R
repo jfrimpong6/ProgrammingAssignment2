@@ -9,7 +9,10 @@ makeCacheMatrix <- function(x = matrix()) {
                 x <<- z
                 inv <<- NULL
         }
-
+ ## get .... get the matrix x
+ ## setInverse .... set inverse of matrix
+ ## getinverse .... gets inverse of matrix
+        
            get <- function() x
           setInverse <- function(inverse) inv <<- inverse
            getInverse <- function() inv
